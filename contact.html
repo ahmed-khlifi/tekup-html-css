@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ico, -->
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+    <!-- Font ( Poppins ) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/app.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Circle - Contact</title>
+  </head>
+  <body>
+    <!-- Start navbar -->
+    <nav class="d-flex d-flex justify-content-evenly">
+      <ul class="d-flex d-flex justify-content-evenly gap-5">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Testimonials</li>
+        <li>Resources</li>
+      </ul>
+      <ul class="d-flex d-flex justify-content-evenly gap-5">
+        <img src="./assets/logo.png" alt="logo" />
+      </ul>
+      <ul class="d-flex d-flex justify-content-evenly gap-5">
+        <li>Company</li>
+        <li>Contact</li>
+        <li>
+          <a href="#" class="outline-button">Login</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="d-flex container justify-content-evenly p-5">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            type="password"
+            class="form-control"
+            id="message"
+          ></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Thanks you!
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                We recieved your message and will get back to you as soon as
+                possible.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="outline-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <a type="button" class="button" href="index.html">
+                  Go back to home page
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <img src="assets/img2.png" style="height: 350px" />
+    </section>
+    <!-- Footer start -->
+    <footer class="text-white">
+      <div class="d-flex gap-5">
+        <div>
+          <strong>Products</strong>
+          <ul>
+            <li>Delta</li>
+            <li>Sigma</li>
+            <li>Zeta</li>
+            <li>Alpha</li>
+            <li>Acumen</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Resources</strong>
+          <ul>
+            <li>Help</li>
+            <li>Training Videos</li>
+            <li>Webinars</li>
+            <li>Request a Demo</li>
+            <li>Create Surveys</li>
+            <li>Quiz Maker</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Company</strong>
+          <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Team</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pb-3 mt-3">
+        <p>&copy; 2024 Ahmed Khelifi - Tek-up</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+  <!-- Bootsrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>

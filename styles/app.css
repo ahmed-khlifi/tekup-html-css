@@ -1,0 +1,165 @@
+/* Variables */
+:root {
+  --main: #0cbbc7;
+  --bg-black: #232323;
+  --app-text: #676767;
+}
+
+/* Gloal */
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: default;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: var(--main);
+}
+
+::selection {
+  color: white;
+  background: var(--main);
+}
+
+body {
+  background-color: var(--main);
+}
+
+.text-main {
+  color: var(--main);
+}
+
+.outline-button {
+  border: 2px solid var(--main);
+  color: var(--main);
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.button {
+  background-color: var(--main);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+.badge {
+  background-color: #0cbac736;
+  border-radius: 50px !important;
+  padding: 10px 15px !important;
+}
+.badge p {
+  color: var(--main);
+  margin: 0;
+}
+/* Navbar */
+nav {
+  padding: 20px 50px;
+  background-color: white;
+}
+
+/* header */
+header {
+  height: 90vh;
+}
+header > div {
+  background-color: #0cbac736;
+  height: 60vh;
+  padding-top: 20px;
+}
+header * {
+  padding-bottom: 20px;
+}
+header h1 {
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+header img {
+  transform: translateY(80px);
+}
+
+/* Testimoonials */
+
+.testimonials {
+  /*   min-height: 80vh;
+ */
+  padding: 100px 0;
+}
+
+.test-card {
+  background-color: #edfeff;
+  padding: 20px;
+  top: 20%;
+  left: 83%;
+  width: 358px;
+  height: 239px;
+}
+
+.carousel-buttons {
+  margin-left: auto;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.carousel-buttons div {
+  cursor: pointer;
+  background-color: #0cbac736;
+  color: var(--main);
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.carousel-buttons div:hover {
+  cursor: pointer;
+  background-color: #0cbac7b9;
+  color: white;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ressources */
+.ressources {
+  background-color: #0cbac7b9;
+}
+
+/* Foter */
+
+footer {
+  padding: 80px 100px;
+  background-color: var(--bg-black);
+
+  font-size: 14px;
+}
+footer ul {
+  margin-top: 20px;
+}
+footer li {
+  color: #7c7c7c;
+}
+
+/* Blog */
+.blog-image {
+  height: 350px;
+}
